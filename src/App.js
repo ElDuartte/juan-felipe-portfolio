@@ -1,11 +1,20 @@
-import './App.css';
+import { Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>hello, im under the water!</p>
-      </header>
+    <div>
+      <h1>My React Portfolio</h1>
+      <ul>
+        <li>
+          <Link to="/cv">CV</Link>
+        </li>
+        <li>
+          <Link to="/portfolio">Portfolio</Link>
+        </li>
+        <li>
+          <Link to="/posts">Posts</Link>
+        </li>
+      </ul>
     </div>
   );
 }

@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 function Portfolio() {
   return (
     <>
+      <Navbar />
       <h1>Portfolio</h1>
-      <Link to="/">go to home</Link>
     </>
   );
 }

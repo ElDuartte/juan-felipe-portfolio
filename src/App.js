@@ -1,21 +1,21 @@
-import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import Navbar from "./components/Navbar";
 
 function App() {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
+
   return (
-    <div>
-      <h1>My React Portfolio</h1>
-      <ul>
-        <li>
-          <Link to="/cv">CV</Link>
-        </li>
-        <li>
-          <Link to="/portfolio">Portfolio</Link>
-        </li>
-        <li>
-          <Link to="/posts">Posts</Link>
-        </li>
-      </ul>
-    </div>
+    <>
+      <Navbar />
+      <div>
+        <h1>{t("welcome")}</h1>
+        <p>{t("welcome.description")}</p>
+      </div>
+    </>
   );
 }
 

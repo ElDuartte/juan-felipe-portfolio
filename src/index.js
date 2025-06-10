@@ -7,6 +7,7 @@ import App from "./App";
 import Posts from "./pages/Posts";
 import Cv from "./pages/Cv";
 import Portfolio from "./pages/Portfolio";
+import "./i18n";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
-  const { i18n, t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const changeLang = (lang) => {
     i18n.changeLanguage(lang);
@@ -24,7 +24,6 @@ const Navbar = () => {
         <li>
           <NavLink to="/portfolio">{t("portfolio")}</NavLink>
         </li>
-
       </ul>
       <div className="lang-toggle">
         <button onClick={() => changeLang("en")}>🇬🇧</button>

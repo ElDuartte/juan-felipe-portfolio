@@ -4,10 +4,6 @@ import Navbar from "./components/Navbar";
 function App() {
   const { t, i18n } = useTranslation();
 
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-  };
-
   return (
     <>
       <Navbar />

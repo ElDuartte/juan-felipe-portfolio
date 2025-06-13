@@ -5,13 +5,13 @@ function App() {
   const { t, i18n } = useTranslation();
 
   return (
-    <>
+    <div class="container">
       <Navbar />
       <div>
         <h1>{t("welcome")}</h1>
         <p>{t("welcome.description")}</p>
       </div>
-    </>
+    </div>
   );
 }
 

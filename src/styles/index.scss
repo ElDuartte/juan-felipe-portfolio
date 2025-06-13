@@ -1,12 +1,14 @@
 @import "App.scss";
 @import "Cv.scss";
 @import "Posts.scss";
+@import "Portfolio.scss";
 @import "Navbar.scss";
 
 * {
   margin: 0;
   padding: 0;
   color: white;
+  background-color: #0d1017;
 }
 
 body {
@@ -15,6 +17,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 50%;
 }
 
 // I think this is for the code snippets

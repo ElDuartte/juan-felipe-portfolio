@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar";
-import Avatar from "../resources/square-portfolio.jpg";
+import Avatar from "../resources/square-portfolio.webp";
 
 function Portfolio() {
   return (

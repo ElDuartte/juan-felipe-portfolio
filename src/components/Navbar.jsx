@@ -10,19 +10,19 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="logo">My Portfolio</div>
+      <h1 className="logo">{t("nav.title")}</h1>
       <ul className="nav-links">
         <li>
-          <NavLink to="/">{t("home")}</NavLink>
+          <NavLink to="/">{t("nav.home")}</NavLink>
         </li>
         <li>
-          <NavLink to="/posts">{t("posts")}</NavLink>
+          <NavLink to="/posts">{t("nav.posts")}</NavLink>
         </li>
         <li>
-          <NavLink to="/cv">{t("cv")}</NavLink>
+          <NavLink to="/cv">{t("nav.cv")}</NavLink>
         </li>
         <li>
-          <NavLink to="/portfolio">{t("portfolio")}</NavLink>
+          <NavLink to="/portfolio">{t("nav.portfolio")}</NavLink>
         </li>
       </ul>
       <div className="lang-toggle">

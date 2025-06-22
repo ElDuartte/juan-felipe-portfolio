@@ -1,8 +1,23 @@
 {
   "welcome": "Welcome to my portfolio",
   "welcome.description": "Description of welcome",
-  "home": "Home",
-  "posts": "Posts",
-  "cv": "Cv",
-  "portfolio": "Portfolio"
+  "nav": {
+    "title": "My portfolio",
+    "home": "Home",
+    "posts": "Posts",
+    "cv": "Cv",
+    "portfolio": "Portfolio"
+  },
+  "cv": [
+    {
+      "id": 1,
+      "title": "Title of my experience 1",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis itaque culpa saepe. Temporibus ipsam sint sequi debitis quisquam saepe quibusdam. Quia aut soluta assumenda laudantium illum blanditiis sint temporibus harum."
+    },
+    {
+      "id": 2,
+      "title": "Title of my experience 2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis itaque culpa saepe. Temporibus ipsam sint sequi debitis quisquam saepe quibusdam. Quia aut soluta assumenda laudantium illum blanditiis sint temporibus harum."
+    }
+  ]
 }

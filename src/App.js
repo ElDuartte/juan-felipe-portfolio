@@ -5,9 +5,9 @@ function App() {
   const { t, i18n } = useTranslation();
 
   return (
-    <div class="container">
+    <div>
       <Navbar />
-      <div>
+      <div class="container">
         <h1>{t("welcome")}</h1>
         <p>{t("welcome.description")}</p>
       </div>

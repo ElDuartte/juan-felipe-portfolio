@@ -11,8 +11,9 @@ function Posts() {
       print(f"Hello, {name}")`;
 
   return (
+    <>
+    <Navbar />
     <div class="container">
-      <Navbar />
       <div className="App">
         <h1>Post</h1>
 
@@ -23,6 +24,7 @@ function Posts() {
         <CodeBlock language="python" code={pyCode} />
       </div>
     </div>
+    </>
   );
 }
 
